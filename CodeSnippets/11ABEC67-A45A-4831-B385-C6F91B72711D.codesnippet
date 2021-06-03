@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>APIShortcut</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSDictionary *dict = json;
+        if ([dict[@"code"] isEqualToString:@"0"]) {
+            
+        }else {
+            [LCProgressHUD showMessage:dict[@"msg"]];
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>11ABEC67-A45A-4831-B385-C6F91B72711D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>APIShortcut</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>api快捷键</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
